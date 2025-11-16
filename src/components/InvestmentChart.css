@@ -1,0 +1,130 @@
+.investment-portfolio {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 5px auto;
+    font-family: Times New Roman, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.title {
+    color: #000000;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.loading-state, .error-state, .empty-state {
+    text-align: center;
+    padding: 60px;
+    font-size: 1.1em;
+    border: 2px dashed #18daae;
+    border-radius: 8px;
+    color: #000000;
+}
+
+.error-state {
+    color: #000000;
+    border-color: #18daae;
+    font-weight: bold;
+}
+
+.last-update {
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 500;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.latest-value {
+    color: #18daae;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.apexcharts-toolbar {
+    color: #000000 !important;
+}
+
+.apexcharts-menu {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+    color: #000000 !important;
+}
+
+.apexcharts-menu-item {
+    color: #000000 !important;
+    font-family: ProductSansRegular, sans-serif !important;
+    font-size: 14px !important;
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+}
+
+.apexcharts-menu-item:hover {
+    background: #f5f5f5 !important;
+    color: #000000 !important;
+}
+
+.apexcharts-menu-item * {
+    color: #000000 !important;
+}
+
+.apexcharts-toolbar svg {
+    fill: #000000 !important;
+}
+
+.apexcharts-zoom-icon svg,
+.apexcharts-zoomin-icon svg,
+.apexcharts-zoomout-icon svg,
+.apexcharts-reset-icon svg,
+.apexcharts-download-icon svg {
+    fill: #000000 !important;
+}
+
+/* Estilos adicionales para el menú desplegable */
+.apexcharts-menu-icon {
+    fill: #000000 !important;
+}
+
+.apexcharts-menu-icon svg {
+    fill: #000000 !important;
+}
+
+/* Asegurar que todo el texto dentro del menú sea negro */
+.apexcharts-menu .apexcharts-menu-item,
+.apexcharts-menu .apexcharts-menu-item span,
+.apexcharts-menu .apexcharts-menu-item div,
+.apexcharts-menu .apexcharts-menu-item a,
+.apexcharts-menu .apexcharts-menu-item p,
+.apexcharts-menu .apexcharts-menu-item label {
+    color: #000000 !important;
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+}
+
+/* Estilos globales para todos los elementos dentro del contenedor del gráfico */
+.investment-portfolio .apexcharts-menu,
+.investment-portfolio .apexcharts-menu * {
+    color: #000000 !important;
+}
+
+.investment-portfolio .apexcharts-toolbar,
+.investment-portfolio .apexcharts-toolbar * {
+    color: #000000 !important;
+}
+
+/* Estilos para el área de selección cuando se hace zoom */
+.investment-portfolio .apexcharts-selection-rect {
+    fill: rgba(24, 218, 174, 0.2) !important;
+    stroke: #18daae !important;
+    stroke-width: 2 !important;
+    stroke-dasharray: 5, 5 !important;
+}
