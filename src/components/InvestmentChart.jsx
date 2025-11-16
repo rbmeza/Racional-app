@@ -226,7 +226,7 @@ const InvestmentChart = () => {
                 return `
                     <div style="padding: 12px; background: #ffffff; border: 2px solid #18daae; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); min-width: 180px;">
                         <div style="font-weight: 600; color: #000000; margin-bottom: 8px; font-size: 13px;">${formattedDate}</div>
-                        <div style="font-size: 20px; font-weight: bold; color: #18daae;">${formattedValue}</div>
+                        <div style="font-size: 20px; font-weight: bold; font-family: Segoe UI; color: #18daae;">${formattedValue}</div>
                     </div>
                 `;
             }

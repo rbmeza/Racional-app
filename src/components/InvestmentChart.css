@@ -39,13 +39,13 @@
     font-size: 1.2em;
     color: #000000;
     font-weight: 500;
-    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
 .latest-value {
     color: #18daae;
     font-weight: bold;
     font-size: 1.3em;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
 .apexcharts-toolbar {
